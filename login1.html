@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Assistant Login</title>
+    <link rel="stylesheet" href="login2.css">
+</head>
+<body>
+
+    <div class="login-card">
+        <div class="mascot-container">
+            <div class="character blue" id="char-1">
+                <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="#81ecec"/><circle cx="40" cy="45" r="5"/><circle cx="60" cy="45" r="5"/></svg>
+            </div>
+            <div class="character pink" id="char-2">
+                <svg viewBox="0 0 100 100">
+                    <rect x="20" y="20" width="60" height="80" rx="30" fill="#fd79a8"/>
+                    <circle cx="40" cy="45" r="6" fill="white"/><circle cx="60" cy="45" r="6" fill="white"/>
+                    <rect class="hand-l" x="10" y="50" width="15" height="30" rx="5" fill="#e84393"/>
+                    <rect class="hand-r" x="75" y="50" width="15" height="30" rx="5" fill="#e84393"/>
+                </svg>
+            </div>
+            <div class="character cyan" id="char-3">
+                <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="#00cec9"/><circle cx="40" cy="45" r="4"/><circle cx="60" cy="45" r="4"/></svg>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h1>Welcome back!</h1>
+            <p>Please enter your details</p>
+            
+            <form id="loginForm">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                
+                <label>Password</label>
+                <div class="pass-group">
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    
+                </div>
+                
+                <button type="submit" class="login-btn">Log In</button>
+
+                <div class="divider">OR</div>
+
+                <button type="button" class="google-btn">
+                    <img src="https://www.gstatic.com/images/branding/product/1x/gsa_512dp.png" width="20">
+                    Continue with Google
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="login3.js"></script>
+</body>
+</html>
